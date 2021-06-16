@@ -6,11 +6,12 @@ Last updated Jan 6, 2021.
 
 UC Davis
 
-[![Binder](https://binder.pangeo.io/badge_logo.svg)](https://binder.pangeo.io/v2/gh/ngs-docs/2020-ggg-201b-rnaseq/stable?urlpath=rstudio)
-
 Authors: Taylor Reiter and N. Tessa Pierce
 
 Technical updates by Titus Brown.
+
+testing new binder: 
+
 
 ## To run in binder --
 
