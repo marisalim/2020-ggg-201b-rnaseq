@@ -10,7 +10,7 @@ Authors: Taylor Reiter and N. Tessa Pierce
 
 Technical updates by Titus Brown.
 
-testing new binder: 
+testing new binder: [![Binder](https://binder.pangeo.io/badge_logo.svg)](https://binder.pangeo.io/v2/gh/marisalim/2020-ggg-201b-rnaseq/marisa-binder?urlpath=rstudio)
 
 
 ## To run in binder --
