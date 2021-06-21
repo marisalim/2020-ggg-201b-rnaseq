@@ -8,4 +8,16 @@ dependencies:
     - r-irkernel=1.1
     - r-devtools
     - snakemake-minimal
+    - r-ggplot2
+    - r-dplyr
+    - r-readr
+    - r-pheatmap
+    - r-knitr
+    - r-rmarkdown
+    - r-rsqlite
+    - r-data.table
+    - r-kableextra
+    - bioconductor-tximeta
+    - bioconductor-deseq2
+    - bioconductor-summarizedexperiment
     
