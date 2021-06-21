@@ -27,7 +27,7 @@ https://cran.r-project.org/doc/manuals/r-patched/R-admin.html#Installing-package
 ```
 
 - trying separate r env yml...this works but is not ideal, because you have to launch R from terminal (vs. console) to use the conda env.
-- trying a suggestion from https://discourse.jupyter.org/t/glibcxx-3-4-26-not-found-from-rstudio/7778/7
+- trying a suggestion from https://discourse.jupyter.org/t/glibcxx-3-4-26-not-found-from-rstudio/7778/7. this adds a [start config](https://mybinder.readthedocs.io/en/latest/config_files.html?highlight=start#start-run-code-before-the-user-sessions-starts) file. it seems to fix the bioconductor R package install fails!
 
 
 [![Binder](https://binder.pangeo.io/badge_logo.svg)](https://binder.pangeo.io/v2/gh/marisalim/2020-ggg-201b-rnaseq/marisa-test-rdeps?urlpath=rstudio)
