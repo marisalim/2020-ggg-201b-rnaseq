@@ -7,3 +7,10 @@ r-devtools
 ```
 
 not sure if one of these is causing the error.
+
+```
+> library(DESeq2)
+Error: package or namespace load failed for ‘DESeq2’ in dyn.load(file, DLLpath = DLLpath, ...):
+ unable to load shared object '/srv/conda/envs/notebook/lib/R/library/Rcpp/libs/Rcpp.so':
+  /usr/lib/x86_64-linux-gnu/libstdc++.so.6: version `GLIBCXX_3.4.26' not found (required by /srv/conda/envs/notebook/lib/R/library/Rcpp/libs/Rcpp.so)
+```
