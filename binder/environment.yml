@@ -9,6 +9,7 @@ dependencies:
     - r-devtools
     - snakemake-minimal
     - r-ggplot2
+    - r-reshape2
     - r-dplyr
     - r-readr
     - r-pheatmap
