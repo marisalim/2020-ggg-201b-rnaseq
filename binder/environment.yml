@@ -4,7 +4,6 @@ channels:
     - bioconda
     - defaults
 dependencies:
-    - r-base
     - r-irkernel=1.1
     - r-devtools
     - snakemake-minimal
