@@ -26,7 +26,8 @@ see the ideas at
 https://cran.r-project.org/doc/manuals/r-patched/R-admin.html#Installing-packages
 ```
 
-trying separate r env yml...
+- trying separate r env yml...this works but is not ideal, because you have to launch R from terminal (vs. console) to use the conda env.
+- trying a suggestion from https://discourse.jupyter.org/t/glibcxx-3-4-26-not-found-from-rstudio/7778/7
 
 
 [![Binder](https://binder.pangeo.io/badge_logo.svg)](https://binder.pangeo.io/v2/gh/marisalim/2020-ggg-201b-rnaseq/marisa-test-rdeps?urlpath=rstudio)
