@@ -1,28 +1,9 @@
-# 2020-ggg-201b-rnaseq
-
-Last updated Jan 6, 2021.
-
-[GGG201b, Intro to Bioinformatics](https://github.com/ngs-docs/2020-GGG201b-lab)
-
-UC Davis
-
-Authors: Taylor Reiter and N. Tessa Pierce
-
-Technical updates by Titus Brown.
-
-testing new binder: [![Binder](https://binder.pangeo.io/badge_logo.svg)](https://binder.pangeo.io/v2/gh/marisalim/2020-ggg-201b-rnaseq/marisa-binder?urlpath=rstudio)
-
-
-## To run in binder --
-
-1) start the binder
-
-2) at the command line, run
+testing a new binder for r dependencies - getting error like [this](https://discourse.jupyter.org/t/glibcxx-3-4-26-not-found-from-rstudio/7778) when trying to load `library(DESeq2)` after adding:
 
 ```
-snakemake -j 4 --use-conda
+r-base
+r-irkernel=1.1
+r-devtools
 ```
 
-3) open `rnaseq-workflow.Rmd`
-
-4) knit to HTML
+not sure if one of these is causing the error.
